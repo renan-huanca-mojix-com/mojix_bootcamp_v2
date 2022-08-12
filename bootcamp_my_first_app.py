@@ -17,5 +17,5 @@ print(l)
 st.write("### Try your self!!!")
 
 
-Mylist = st.text_input("Mylist")
+Mylist = st.text_input("Mylist", "1,2,3").split(",")
 
