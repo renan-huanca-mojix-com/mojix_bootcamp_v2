@@ -17,4 +17,5 @@ print(l)
 st.write("### Try your self!!!")
 
 
-Mylist = st.text_area("1,2,3")
+Mylist = st.text_input("Mylist")
+
