@@ -10,7 +10,7 @@ If we want to check and print the length of a list:
 ```
 Mylist = [1,2,3]
 if(l := len(mylist) > 2)
-print(l)
+    print(l)
 ```     
 """)
 
@@ -19,7 +19,8 @@ st.write("### Try your self!!!")
 
 Mylist = st.text_input("Mylist", "1,2,3").split(",")
     
-if st.button('Say hello'):
-    st.write('Why hello there')
-else:
-    st.write('Goodbye')
+if st.button('Test Here'):
+    if(l := len(Mylist) > 2):
+        st.write("Your array has more than 2 elements")
+    else:
+        st.write("Your array is small")
