@@ -14,10 +14,7 @@ print(l)
 ```     
 """)
 
+st.write("### Try your self!!!")
 
 
-
-
-
-# with st.echo(code_location='below'):
-#     total_points = st.slider("Number of points in spiral", 1, 100, 20)
+Mylist = st.text_area("1,2,3")
