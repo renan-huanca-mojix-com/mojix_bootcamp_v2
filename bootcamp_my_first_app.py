@@ -18,4 +18,8 @@ st.write("### Try your self!!!")
 
 
 Mylist = st.text_input("Mylist", "1,2,3").split(",")
-
+    
+if st.button('Say hello'):
+    st.write('Why hello there')
+else:
+    st.write('Goodbye')
